@@ -1,0 +1,126 @@
+{
+  "BASIC": [
+    {
+      "id": "drawing",
+      "name": "Drawing",
+      "subcategories": [
+        {
+          "id": "trend",
+          "name": "Trend Line"
+
+        },
+        {
+          "id": "ray",
+          "name": "Ray"
+        }
+      ]
+    },
+    {
+      "id": "fibonacci",
+      "name": "Fibonacci",
+      "subcategories": [
+        {
+          "id": "fibonacci_retracement",
+          "name": "Fibonacci Retracement"
+
+        },
+        {
+          "id": "fibonacci_price_extensions",
+          "name": "Fibonacci Price Extensions"
+        }
+      ]
+    },
+    {
+      "id": "channel",
+      "name": "Channel",
+      "subcategories": [
+        {
+          "id": "standard_error",
+          "name": "Standard Error Channel"
+
+        },
+        {
+          "id": "raff_regression",
+          "name": "Raff Regression Channel"
+        }
+      ]
+    },
+    {
+      "id": "harmonic",
+      "name": "Harmonic",
+      "subcategories": [
+        {
+          "id": "ab_cd",
+          "name": "AB=CD Pattern"
+
+        },
+        {
+          "id": "ab_cd_abcd",
+          "name": "AB=CD-abcd Pattern"
+        }
+      ]
+    }
+  ],
+  "PREMIUM" : [
+    {
+      "id": "drawing",
+      "name": "Drawing",
+      "subcategories": [
+        {
+          "id": "trend",
+          "name": "Trend Line"
+
+        },
+        {
+          "id": "ray",
+          "name": "Ray"
+        }
+      ]
+    },
+    {
+      "id": "fibonacci",
+      "name": "Fibonacci",
+      "subcategories": [
+        {
+          "id": "fibonacci_retracement",
+          "name": "Fibonacci Retracement"
+
+        },
+        {
+          "id": "fibonacci_price_extensions",
+          "name": "Fibonacci Price Extensions"
+        }
+      ]
+    },
+    {
+      "id": "channel",
+      "name": "Channel",
+      "subcategories": [
+        {
+          "id": "standard_error",
+          "name": "Standard Error Channel"
+
+        },
+        {
+          "id": "raff_regression",
+          "name": "Raff Regression Channel"
+        }
+      ]
+    },
+    {
+      "id": "harmonic",
+      "name": "Harmonic",
+      "subcategories": [
+        {
+          "id": "ab_cd",
+          "name": "AB=CD Pattern"
+
+        },
+        {
+          "id": "ab_cd_abcd",
+          "name": "AB=CD-abcd Pattern"
+        }
+      ]
+    }
+  ]
+}

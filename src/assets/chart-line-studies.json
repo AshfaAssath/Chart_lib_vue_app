@@ -1,0 +1,98 @@
+[
+  {
+    "id": "trend",
+    "name": "Trend Line",
+    "icon": "dfn/TrendLine",
+    "isVisible": true
+  },
+  {
+    "id": "ray",
+    "name": "Ray",
+    "icon": "dfn/Ray",
+    "isVisible": true
+  },
+  {
+    "id": "horizontal_ray",
+    "name": "Horizontal Ray",
+    "icon": "dfn/HorizontalRay",
+    "isVisible": true
+  },
+  {
+    "id": "trend_angle",
+    "name": "Trend Angle",
+    "icon": "dfn/TrendAngle",
+    "isVisible": true
+  },
+  {
+    "id": "horizontal",
+    "name": "Horizontal Line",
+    "icon": "dfn/HorizontalLine",
+    "isVisible": true
+  },
+  {
+    "id": "arrow_headed",
+    "name": "Arrow Trend Line",
+    "icon": "dfn/ArrowTrendLine",
+    "isVisible": true
+  },
+  {
+    "id": "vertical",
+    "name": "Vertical Line",
+    "icon": "dfn/VerticalLine",
+    "isVisible": true
+  },
+  {
+    "id": "cross_line",
+    "name": "Cross Line",
+    "icon": "dfn/CrossLine",
+    "isVisible": true
+  },
+  {
+    "id": "rectangle",
+    "name": "Rectangle",
+    "icon": "dfn/Rectangle",
+    "isVisible": true
+  },
+  {
+    "id": "text",
+    "name": "Text",
+    "icon": "dfn/Text",
+    "isVisible": true
+  },
+  {
+    "id": "linear_regression",
+    "name": "Linear Regression Line",
+    "icon": "dfn/LinearRegressionLine",
+    "isVisible": true
+  },
+  {
+    "id": "zig_zag",
+    "name": "Zig Zag Line",
+    "icon": "dfn/ZigZag",
+    "isVisible": true
+  },
+  {
+    "id": "arc",
+    "name": "Arc",
+    "icon": "dfn/Arc",
+    "isVisible": true
+  },
+  {
+    "id": "andrews_pitchfork",
+    "name": "Andrews Pitchfork",
+    "icon": "dfn/AndrewsPitchfork",
+    "isVisible": true
+  },
+  {
+    "id": "time_cycles",
+    "name": "Time Cycle",
+    "icon": "dfn/TimeCycle",
+    "isVisible": true
+  },
+  {
+    "id": "cyclic_lines",
+    "name": "Cyclic Lines",
+    "icon": "dfn/FibonacciTimeZone",
+    "isVisible": true
+  }
+]

@@ -1,0 +1,45 @@
+@use 'fonts';
+
+#app {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background: #71905E;
+
+  .chart-toolbar {
+    overflow: scroll;
+  }
+
+  #chart-container {
+    background: #8BB174;
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: row;
+
+    #chart-line-study-panel {
+      background: #F8333C;
+      width: 8rem;
+      height: 100%;
+    }
+
+    #chart-canvas-container {
+      background: #FCAB10;
+      height: 100%;
+      display: flex;
+      flex: 1 1 0;
+      flex-direction: column;
+
+      #chart-canvas {
+        display: flex;
+        flex: 1 1 0;
+        flex-direction: column;
+      }
+
+      #chart-bottom-panel {
+        background: #2B9EB3;
+        height: 2.8rem;
+      }
+    }
+  }
+}

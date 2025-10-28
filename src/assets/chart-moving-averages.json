@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "displayName": "Simple Moving Average 10",
+    "shortName": "SMA10"
+  },
+  {
+    "id": 2,
+    "displayName": "Simple Moving Average 20",
+    "shortName": "SMA20"
+  },
+  {
+    "id": 3,
+    "displayName": "Simple Moving Average 35",
+    "shortName": "SMA35"
+  }
+,
+  {
+    "id": 4,
+    "displayName": "Simple Moving Average 50",
+    "shortName": "SMA50"
+  },
+  {
+    "id": 5,
+    "displayName": "Simple Moving Average 100",
+    "shortName": "SMA100"
+  },
+  {
+    "id": 6,
+    "displayName": "Simple Moving Average 200",
+    "shortName": "SMA200"
+  },
+  {
+    "id": 7,
+    "displayName": "Simple Moving Average",
+    "shortName": "SMA9"
+  },
+  {
+    "id": 8,
+    "displayName": "Exponential MA 10",
+    "shortName": "EMA10"
+  },
+  {
+    "id": 9,
+    "displayName": "Exponential MA 20",
+    "shortName": "EMA20"
+  },
+  {
+    "id": 10,
+    "displayName": "Exponential MA 35",
+    "shortName": "EMA35"
+  },
+  {
+    "id": 11,
+    "displayName": "Exponential MA 50",
+    "shortName": "EMA50"
+  },
+  {
+    "id": 12,
+    "displayName": "Exponential MA 100",
+    "shortName": "EMA100"
+  },
+  {
+    "id": 13,
+    "displayName": "Exponential MA 200",
+    "shortName": "EMA200"
+  },
+  {
+    "id": 14,
+    "displayName": "Exponential MA",
+    "shortName": "EMA"
+  }
+]

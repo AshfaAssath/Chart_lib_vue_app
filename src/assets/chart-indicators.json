@@ -1,0 +1,428 @@
+[
+  {
+    "id": "MVSimple",
+    "studyKey": "MVSimple",
+    "shortName": "SMA",
+    "description": "Simple Moving Average"
+  },
+  {
+    "id": "MVExponential",
+    "studyKey": "MVExponential",
+    "shortName": "EMA",
+    "description": "Exponential MA"
+  },
+  {
+    "id": "MVTimeSeries",
+    "studyKey": "MVTimeSeries",
+    "shortName": "TSMA",
+    "description": "Moving Average - Time Series"
+  },
+  {
+    "id": "MVTriangular",
+    "studyKey": "MVTriangular",
+    "shortName": "TMA",
+    "description": "Moving Average - Triangular"
+  },
+  {
+    "id": "MVVariable",
+    "studyKey": "MVVariable",
+    "shortName": "VMA",
+    "description": "Moving Average - Variable"
+  },
+  {
+    "id": "MVWeighted",
+    "studyKey": "MVWeighted",
+    "shortName": "WMA",
+    "description": "Moving Average - Weighted"
+  },
+  {
+    "id": "MVWellesWilder",
+    "studyKey": "MVWellesWilder",
+    "shortName": "WWMA",
+    "description": "Moving Average - Welles Wilder"
+  },
+  {
+    "id": "BollingerBands",
+    "studyKey": "BollingerBands",
+    "shortName": "BB",
+    "description": "Bollinger Bands"
+  },
+  {
+    "id": "MACD",
+    "studyKey": "MACD",
+    "shortName": "MACD",
+    "description": "MACD"
+  },
+  {
+    "id": "Momentum",
+    "studyKey": "Momentum",
+    "shortName": "Momentum",
+    "description": "Momentum"
+  },
+  {
+    "id": "WildersSmoothing",
+    "studyKey": "WildersSmoothing",
+    "shortName": "WS",
+    "description": "Wilders Smoothing"
+  },
+  {
+    "id": "AverageTrueRange",
+    "studyKey": "AverageTrueRange",
+    "shortName": "ATR",
+    "description": "Average True Range"
+  },
+  {
+    "id": "DirectionalMovementPlusDI",
+    "studyKey": "DirectionalMovementPlusDI",
+    "shortName": "+DI",
+    "description": "Directional Movement +DI"
+  },
+  {
+    "id": "DirectionalMovementMinusDI",
+    "studyKey": "DirectionalMovementMinusDI",
+    "shortName": "-DI",
+    "description": "Directional Movement -DI"
+  },
+  {
+    "id": "DirectionalMovementDX",
+    "studyKey": "DirectionalMovementDX",
+    "shortName": "DX",
+    "description": "Directional Movement DX"
+  },
+  {
+    "id": "DirectionalMovementADX",
+    "studyKey": "DirectionalMovementADX",
+    "shortName": "ADX",
+    "description": "Directional Movement ADX"
+  },
+  {
+    "id": "DirectionalMovementADXR",
+    "studyKey": "DirectionalMovementADXR",
+    "shortName": "ADXR",
+    "description": "Directional Movement ADXR"
+  },
+  {
+    "id": "AccumulationDistribution",
+    "studyKey": "AccumulationDistribution",
+    "shortName": "AD",
+    "description": "Accumulation Distribution"
+  },
+  {
+    "id": "TimeSeriesForecast",
+    "studyKey": "TimeSeriesForecast",
+    "shortName": "TF",
+    "description": "Time Series Forecast"
+  },
+  {
+    "id": "ChaikinMF",
+    "studyKey": "ChaikinMF",
+    "shortName": "CMF",
+    "description": "Chaikin Money Flow"
+  },
+  {
+    "id": "TRIX",
+    "studyKey": "TRIX",
+    "shortName": "TRIX",
+    "description": "TRIX"
+  },
+  {
+    "id": "CommodityChannelIndex",
+    "studyKey": "CommodityChannelIndex",
+    "shortName": "CCI",
+    "description": "Commodity Channel Index"
+  },
+  {
+    "id": "RelativeStrengthIndex",
+    "studyKey": "RelativeStrengthIndex",
+    "shortName": "RSI",
+    "description": "Relative Strength Index"
+  },
+  {
+    "id": "PSAR",
+    "studyKey": "PSAR",
+    "shortName": "PSAR",
+    "description": "Parabolic SAR"
+  },
+  {
+    "id": "WilliamsPerR",
+    "studyKey": "WilliamsPerR",
+    "shortName": "Williams%R",
+    "description": "Williams % R"
+  },
+  {
+    "id": "StochasticOscillator",
+    "studyKey": "StochasticOscillator",
+    "shortName": "SO",
+    "description": "Stochastic Oscillator"
+  },
+  {
+    "id": "VolOsc",
+    "studyKey": "VolOsc",
+    "shortName": "VO",
+    "description": "Volume Oscillator"
+  },
+  {
+    "id": "MoneyFlowIndex",
+    "studyKey": "MoneyFlowIndex",
+    "shortName": "MFI",
+    "description": "Money Flow Index"
+  },
+  {
+    "id": "ChandeMomentumOscillator",
+    "studyKey": "ChandeMomentumOscillator",
+    "shortName": "CMO",
+    "description": "Chande Momentum Oscillator"
+  },
+  {
+    "id": "SwingIndex",
+    "studyKey": "SwingIndex",
+    "shortName": "SI",
+    "description": "Swing Index"
+  },
+  {
+    "id": "AccumSwingIndex",
+    "studyKey": "AccumSwingIndex",
+    "shortName": "ASI",
+    "description": "Accumulation Swing Index"
+  },
+  {
+    "id": "Aroon",
+    "studyKey": "Aroon",
+    "shortName": "Aroon",
+    "description": "Aroon"
+  },
+  {
+    "id": "Alligator",
+    "studyKey": "Alligator",
+    "shortName": "Alligator",
+    "description": "Alligator"
+  },
+  {
+    "id": "EaseOfMovement",
+    "studyKey": "EaseOfMovement",
+    "shortName": "EOM",
+    "description": "Ease Of Movement"
+  },
+  {
+    "id": "VolROC",
+    "studyKey": "VolROC",
+    "shortName": "VROC",
+    "description": "Volume ROC"
+  },
+  {
+    "id": "PriceROC",
+    "studyKey": "PriceROC",
+    "shortName": "PROC",
+    "description": "Price ROC"
+  },
+  {
+    "id": "WilliamsAccum",
+    "studyKey": "WilliamsAccum",
+    "shortName": "WA",
+    "description": "Williams Accumulation"
+  },
+  {
+    "id": "DPO",
+    "studyKey": "DPO",
+    "shortName": "DPO",
+    "description": "DPO"
+  },
+  {
+    "id": "Envelopes",
+    "studyKey": "Envelopes",
+    "shortName": "Envelopes",
+    "description": "Envelopes"
+  },
+  {
+    "id": "IKH",
+    "studyKey": "IKH",
+    "shortName": "IKH",
+    "description": "Ichimoku Kinko Hyo"
+  },
+  {
+    "id": "MVAdaptive",
+    "studyKey": "MVAdaptive",
+    "shortName": "AMA",
+    "description": "Moving Average - Adaptive"
+  },
+  {
+    "id": "MVHull",
+    "studyKey": "MVHull",
+    "shortName": "HMA",
+    "description": "Moving Average - Hull"
+  },
+  {
+    "id": "MVVolAdjusted",
+    "studyKey": "MVVolAdjusted",
+    "shortName": "VAMA",
+    "description": "Moving Average - Volume Adjusted"
+  },
+  {
+    "id": "NVI",
+    "studyKey": "NVI",
+    "shortName": "NVI",
+    "description": "Negative Volume Index"
+  },
+  {
+    "id": "OnBalanceVolume",
+    "studyKey": "OnBalanceVolume",
+    "shortName": "OBV",
+    "description": "On Balance Volume"
+  },
+  {
+    "id": "PriceVolTrend",
+    "studyKey": "PriceVolTrend",
+    "shortName": "PVT",
+    "description": "Price Volume Trend"
+  },
+  {
+    "id": "PriceChannels",
+    "studyKey": "PriceChannels",
+    "shortName": "PC",
+    "description": "Price Channels"
+  },
+  {
+    "id": "PriceOscillator",
+    "studyKey": "PriceOscillator",
+    "shortName": "PO",
+    "description": "Price Oscillator"
+  },
+  {
+    "id": "Qstick",
+    "studyKey": "Qstick",
+    "shortName": "Qstick",
+    "description": "Qstick"
+  },
+  {
+    "id": "RelativeMomentumIndex",
+    "studyKey": "RelativeMomentumIndex",
+    "shortName": "RMI",
+    "description": "Relative Momentum Index"
+  },
+  {
+    "id": "TEMA",
+    "studyKey": "TEMA",
+    "shortName": "TEMA",
+    "description": "TEMA"
+  },
+  {
+    "id": "StochasticFast",
+    "studyKey": "StochasticFast",
+    "shortName": "SF",
+    "description": "Stochastic Fast"
+  },
+  {
+    "id": "StochasticSlow",
+    "studyKey": "StochasticSlow",
+    "shortName": "SS",
+    "description": "Stochastic Slow"
+  },
+  {
+    "id": "StochasticMomentumIndex",
+    "studyKey": "StochasticMomentumIndex",
+    "shortName": "SMI",
+    "description": "Stochastic Momentum Index"
+  },
+  {
+    "id": "VolatilityIndicator",
+    "studyKey": "VolatilityIndicator",
+    "shortName": "VI",
+    "description": "Volatility Indicator"
+  },
+  {
+    "id": "VolatilityStdDev",
+    "studyKey": "VolatilityStdDev",
+    "shortName": "VSD",
+    "description": "Volatility StdDev"
+  },
+  {
+    "id": "PerChange",
+    "studyKey": "PerChange",
+    "shortName": "%Chg",
+    "description": "%Chg"
+  },
+  {
+    "id": "PerR",
+    "studyKey": "PerR",
+    "shortName": "%R",
+    "description": "%R"
+  },
+  {
+    "id": "BollingerPerB",
+    "studyKey": "BollingerPerB",
+    "shortName": "BBPER",
+    "description": "Bollinger %B"
+  },
+  {
+    "id": "VolatilityPer",
+    "studyKey": "VolatilityPer",
+    "shortName": "V%",
+    "description": "Volatility[%]"
+  },
+  {
+    "id": "CommSelIndex",
+    "studyKey": "CommSelIndex",
+    "shortName": "CSI",
+    "description": "Comm Sel Index"
+  },
+  {
+    "id": "ChaikinADOscillator",
+    "studyKey": "ChaikinADOscillator",
+    "shortName": "CADO",
+    "description": "Chaikin A/D Oscillator"
+  },
+  {
+    "id": "DEMA",
+    "studyKey": "DEMA",
+    "shortName": "DEMA",
+    "description": "DEMA"
+  },
+  {
+    "id": "IntradayMomentumIndex",
+    "studyKey": "IntradayMomentumIndex",
+    "shortName": "IMI",
+    "description": "Intraday Momentum Index"
+  },
+  {
+    "id": "KeltnerChannel",
+    "studyKey": "KeltnerChannel",
+    "shortName": "KC",
+    "description": "Keltner Channel"
+  },
+  {
+    "id": "KlingerOscillator",
+    "studyKey": "KlingerOscillator",
+    "shortName": "KO",
+    "description": "Klinger Oscillator"
+  },
+  {
+    "id": "MassIndex",
+    "studyKey": "MassIndex",
+    "shortName": "MI",
+    "description": "Mass Index"
+  },
+  {
+    "id": "DMI",
+    "studyKey": "DMI",
+    "shortName": "DMI",
+    "description": "DMI"
+  },
+  {
+    "id": "RelativeVolatilityIndex",
+    "studyKey": "RelativeVolatilityIndex",
+    "shortName": "RVI",
+    "description": "Relative Volatility Index"
+  },
+  {
+    "id": "StdDev",
+    "studyKey": "StdDev",
+    "shortName": "SD",
+    "description": "Standard Deviation"
+  },
+  {
+    "id": "ZigZag",
+    "studyKey": "ZigZag",
+    "shortName": "ZigZag",
+    "description": "Zig Zag"
+  }
+]
