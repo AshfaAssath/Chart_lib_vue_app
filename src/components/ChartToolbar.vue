@@ -20,20 +20,14 @@
 <!--      <div class="chart-layout-options">-->
 <!--      </div>-->
 <!--    </div>-->
-    <div v-if="!config.isHideSymbolSearch">Symbol Search</div>
+    <button class="symbol-search-component" v-if="!config.isHideSymbolSearch" @click="openSymbolSearch">
+      <FontAwesomeIcon :icon="faMagnifyingGlass" />
+      <span>1010</span>
+    </button>
     <div v-if="!config.isHideChartStyle">Chart styles</div>
     <div v-if="!config.isHideGeneralChartDropdown">General Charts</div>
-    <div v-if="!config.isHideChartEvents">Events</div>
     <div v-if="!config.isHideMovingAverageDropdown">Moving Averages</div>
     <div v-if="!config.isHideIndicatorSettingsBtn">Indicators</div>
-    <div v-if="!config.isHideFootprintDropDown">Volume Profile Chart</div>
-    <div v-if="!config.isHideUnadjustedDropdown">Adjusted Data</div>
-    <div v-if="!config.isHideChartElementsBtn">Chart Elements</div>
-    <div v-if="!config.isHideChartTableBtn">Chart Table</div>
-    <div v-if="!config.isHideVolumeByPriceBtn">Volume by Price</div>
-    <div v-if="!config.isHideReplayChartBtn">Replay</div>
-    <div v-if="!config.isHideCFBBtn">Custom Formula Builder</div>
-    <div v-if="!config.isHideCompareSymbol">Compare Symbol</div>
   </div>
 
 </template>
@@ -41,6 +35,8 @@
 <script setup>
 import movingAverages from '../assets/chart-moving-averages.json';
 import { ref, computed } from 'vue';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 // Define props
   const props = defineProps({
@@ -54,10 +50,14 @@ import { ref, computed } from 'vue';
   const selectedStudyId = ref('');
 
   // Define methods
-  function openIndicators() {
+  function openIndicators () {
     // Example: emit an event or call a function
     // emit('open-indicators-modal');
     console.log('Indicators modal opened');
+  }
+
+  function openSymbolSearch () {
+    console.log('Opening Symbol Search');
   }
 
   // Define computed property
@@ -70,13 +70,35 @@ import { ref, computed } from 'vue';
   .chart-toolbar {
     display: flex;
     flex-direction: row;
-    gap: 3px;
+    gap: 6px;
+    padding: 0 5px;
+    background-color: #fff;
 
     div {
-      border: 2px solid black;
+      //border: 2px solid black;
+      border-radius: 4px;
       padding: 2px;
+      margin: 1px 0px;
+
+      &:hover {
+        background-color: #f2f2f2;
+      }
     }
 
+    .symbol-search-component {
+      display: flex;
+      gap: 5px;
+      padding: 2px 8px;
+      background-color: #fff;
+      align-items: center;
+      cursor: pointer;
+      border: none;
+      border-radius: 4px;
+
+      &:hover {
+        background-color: #f2f2f2;
+      }
+    }
 
     .chart-toolbar-left {
       float: left;
@@ -91,7 +113,7 @@ import { ref, computed } from 'vue';
         select {
           height: calc(100% - 4px);
           border-radius: 4px;
-          background-color: #B5624E;
+          //background-color: #B5624E;
         }
       }
 
@@ -103,7 +125,7 @@ import { ref, computed } from 'vue';
         button {
           height: calc(100% - 4px);
           border-radius: 4px;
-          background-color: #B5624E;
+          //background-color: #B5624E;
           width: 100%;
         }
       }

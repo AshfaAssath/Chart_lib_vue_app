@@ -1,30 +1,27 @@
-@use 'fonts';
-
 #app {
   display: flex;
+  padding: 2px;
   height: 100%;
+  //height: 100vh;
   flex-direction: column;
-  font-family: Arial, sans-serif;
-  background: #71905E;
-
-  .chart-toolbar {
-    overflow: scroll;
-  }
+  font-family: -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu, sans-serif;
+  color: #0f0f0f;
+  background: #ebebeb;
 
   #chart-container {
-    background: #8BB174;
+    //background: #fff;
     flex: 1 1 0;
     display: flex;
     flex-direction: row;
 
     #chart-line-study-panel {
-      background: #F8333C;
-      width: 8rem;
+      background: #fff;
+      width: 52px;
       height: 100%;
     }
 
     #chart-canvas-container {
-      background: #FCAB10;
+      background: #fff;
       height: 100%;
       display: flex;
       flex: 1 1 0;
@@ -37,9 +34,15 @@
       }
 
       #chart-bottom-panel {
-        background: #2B9EB3;
+        background: #fff;
         height: 2.8rem;
       }
     }
+  }
+
+  #chart-toolbar,
+  #chart-line-study-panel,
+  #chart-canvas-container {
+    margin: 2px;
   }
 }

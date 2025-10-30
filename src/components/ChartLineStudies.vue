@@ -8,7 +8,10 @@
           @mouseenter="activeCategory = category.id"
           @mouseleave="activeCategory = null"
       >
-        <span>{{ category.name }}</span>
+        <div data-hint={{category.name}}>
+          <i class="icon {{category.icon}}"></i>
+        </div>
+<!--        <span>{{ category.name }}</span>-->
 
         <!-- Subcategory dropdown -->
         <ul
@@ -21,7 +24,10 @@
               class="dropdown-subitem"
               @click="selectStudy(study)"
           >
-            <span>{{ study.name }}</span>
+            <div class="dropdown-subitem-content">
+              <i class="icon"></i>
+              <span>{{ study.name }}</span>
+            </div>
 
           </li>
         </ul>
@@ -65,14 +71,23 @@ function selectStudy(study) {
 
     .dropdown-item {
       position: relative;
-      background-color: #cb5248;
-      color: white;
+      height: 38px;
+      align-items: center;
+      //background-color: #cb5248;
+      //color: white;
       padding: 8px 12px;
       cursor: pointer;
-      border-bottom: 1px solid #a9443a;
+      //border-bottom: 1px solid #a9443a;
 
-      &:hover {
-        background-color: #a9443a;
+      .icon {
+        display: flex;
+        width: 28px;
+        height: 28px;
+        border: 1px solid black;
+
+        &:hover {
+          background-color: #f2f2f2;
+        }
       }
 
       span {
@@ -83,7 +98,7 @@ function selectStudy(study) {
         position: absolute;
         top: 0;
         left: 100%;
-        background-color: #b5624e;
+        background-color: #fff;
         min-width: 180px;
         list-style: none;
         padding: 0;
@@ -92,13 +107,20 @@ function selectStudy(study) {
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 
         .dropdown-subitem {
-          padding: 8px 12px;
-          color: white;
+          padding: 6px 0px;
+          align-items: center;
+          height: 40px;
           cursor: pointer;
-          border-bottom: 1px solid #944a3a;
+          //border-bottom: 1px solid #944a3a;
+
+          .dropdown-subitem-content {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+          }
 
           &:hover {
-            background-color: #944a3a;
+            background-color: #f2f2f2;
           }
 
           span {

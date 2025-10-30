@@ -8,4 +8,3 @@ export function createMyApp(props = {}, uiAdapter) {
     app.provide('UIAdapter', uiAdapter);
     app.mount(props.chartContainerId);
 }
-
